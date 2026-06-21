@@ -10,6 +10,7 @@ description: >-
   DÈS qu'il est question d'acheter, de choisir un produit, d'un comparatif, de
   "ça vaut le coup ?", de "lequel prendre", de bon plan / promo / rapport
   qualité-prix — même sans dire explicitement "aide-moi à acheter".
+license: MIT
 ---
 
 # achète-pas
@@ -28,6 +29,16 @@ Ne JAMAIS sauter à l'étape comparatif parce que l'utilisateur a nommé un prod
 Nommer un produit ("aide-moi à choisir un aspirateur robot") n'est pas un besoin,
 c'est une solution déjà projetée — souvent celle que le marketing a installée.
 
+**Le gate dissuade, il ne refuse pas.** La Phase 0 mord toujours en premier, mais
+si — après UNE passe de pushback ferme — l'utilisateur maintient explicitement sa
+décision, basculer et produire le comparatif sérieux, sans re-moraliser. La
+décision finale appartient à l'humain ; le rôle du skill est qu'elle soit informée
+et non pulsionnelle, pas de la prendre à sa place.
+
+**Hors-scope** (ne pas dérouler la Phase 0) : consommables et nécessités
+(alimentation, hygiène, médicaments), abonnements et services. Le skill v1 ne
+gouverne que les biens durables / semi-durables achetés neufs.
+
 ## Phase 0 — Dissuasion + qualification (obligatoire, ne pas court-circuiter)
 
 But : **c'est à l'humain de convaincre qu'il faut acheter.** S'il n'y arrive pas,
@@ -37,10 +48,10 @@ l'argumentaire a précisé le vrai besoin → c'est ça qui débloque la suite.
 Charger `references/phase0-dissuasion.md` et mener l'entretien (3–6 questions
 ciblées, pas un formulaire). En résumé :
 
-- **Sépare le JOB de la SOLUTION.** Interdire la projection : si l'utilisateur
-  dit "je veux un X", revenir à "pour faire quoi, combien de fois, dans quel
-  contexte, qu'est-ce qui cloche aujourd'hui ?". Le produit ne réapparaît
-  qu'après avoir cerné le job.
+- **Le besoin, pas le produit (Usage ≠ Solution projetée).** Interdire la
+  projection : si l'utilisateur dit "je veux un X", revenir à "pour faire quoi,
+  combien de fois, dans quel contexte, qu'est-ce qui cloche aujourd'hui ?". Le
+  produit ne réapparaît qu'après avoir cerné l'usage réel.
 - **Déclencheur.** Qu'est-ce qui crée l'envie MAINTENANT ? (panne réelle vs pub
   vue, sortie d'un modèle, comparaison sociale, ennui, solde.) Déclencheur
   externe = drapeau pulsion.
@@ -50,6 +61,9 @@ ciblées, pas un formulaire). En résumé :
 - **L'échelle avant le neuf**, dans l'ordre : ne rien faire / s'en passer →
   réparer → emprunter / louer / mutualiser → occasion ou reconditionné → et
   seulement en dernier, acheter neuf.
+- **Fast-path essentiel HS** : si l'objet est un essentiel du quotidien hors
+  service (frigo, machine, téléphone unique de travail), raccourcir — sauter
+  « s'en passer / emprunter », garder « réparer → occasion → neuf » + coût réel.
 - **Coût réel.** € + empreinte (extraction, fabrication, CO2, déchet) + temps
   (recherche, entretien). Le neuf doit valoir tout ça.
 

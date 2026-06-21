@@ -15,6 +15,8 @@ une reco par profil.
 - Format **Agent Skill** (`SKILL.md` + `references/`), utilisable sur **claude.ai**.
 - Installation : déposer le dossier `achete-pas/` comme skill (upload claude.ai),
   ou le copier dans `~/.claude/skills/achete-pas/` pour Claude Code.
+- **Locale : France** (assumé). Comparateurs et déclenchement en français par
+  choix — meilleur triggering FR, sources FR. D'autres locales viendront.
 
 ```
 achete-pas/
@@ -27,4 +29,5 @@ achete-pas/
 
 ## Licence
 
-À fixer. AGPL-3.0 recommandée (cohérence avec le reste + posture copyleft).
+MIT (voir [`LICENSE`](./LICENSE)). Du texte court ; on s'aligne sur la norme de
+l'écosystème skills (MIT/Apache) plutôt que de chipoter sur du copyleft.
