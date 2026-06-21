@@ -1,0 +1,8 @@
+# Local agent & editor state
+.claude/
+.idea/
+.vscode/
+
+# Local-only config (review before committing; may contain machine-specific settings)
+.mcp.json
+.gitmodules
