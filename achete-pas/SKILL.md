@@ -5,7 +5,7 @@ description: >-
   besoin AVANT de comparer le moindre produit. Refuse de prendre pour acquise la
   solution que l'utilisateur a déjà en tête, reformule le besoin réel en usage
   concret, fait passer ne-rien-faire / réparer / emprunter / occasion avant le
-  neuf, démonte le marketing, croise prix officiel / prix de rue / promo, et
+  neuf, démonte le marketing, croise prix officiel / prix constaté / promo, et
   conclut par une reco par profil avec le coût réel (€ + empreinte). À utiliser
   DÈS qu'il est question d'acheter, de choisir un produit, d'un comparatif, de
   "ça vaut le coup ?", de "lequel prendre", de bon plan / promo / rapport
@@ -77,6 +77,11 @@ ciblées, pas un formulaire). En résumé :
   s'arrêter là. Pas de comparatif neuf.
 - **Besoin réel + neuf réellement justifié** → SEULEMENT ici, passer à la suite.
 
+> Quand un verdict revient à dire « la feature que tu visais n'est pas nécessaire »
+> (ex. l'ANC pour un usage fixe), la situer dans le marché avant de trancher
+> (Phase 2 : pénétration + premium). Un « inutile » sur une feature devenue
+> standard est théorique, et le vrai enjeu est souvent le premium, pas le besoin.
+
 ## Phase 1 — État du marché
 - Identifier les modèles qui comptent dans la catégorie.
 - Sources fiables UNIQUEMENT : fabricants (specs brutes), tests de presse spé /
@@ -90,15 +95,22 @@ ciblées, pas un formulaire). En résumé :
 - Pour chaque critère : mesurable et différenciant à l'usage, ou argument de
   fiche produit ? Relativiser les chiffres non comparables (conditions de test
   différentes) et les superlatifs non quantifiés.
+- **Situer la feature pivot dans le marché** (uniquement celle qui gate la
+  décision, pas chaque claim relativisé) : avant de conclure « tu n'en as pas
+  besoin », mesurer via une recherche rapide (1) la *pénétration* — standard de
+  la catégorie ou différenciateur ? si c'est de base partout (ex. « smart » sur
+  les TV), s'en passer est théorique ; et (2) le *premium* — surcoût moyen entre
+  deux produits équivalents à cette feature près, ce qui chiffre la décision.
+  Détail : `references/criteres-vs-marketing.md`.
 - Catégorie absente des references : construire la grille à la volée (params
   physiques/mesurables d'un côté, claims marketing de l'autre) et proposer de
   l'ajouter.
 
 ## Phase 3 — Prix
 - Charger `references/sources-prix-fr.md`.
-- Trois niveaux distincts : prix officiel constructeur / prix de rue actuel
+- Trois niveaux distincts : prix officiel constructeur / prix constaté actuel
   (comparateurs neutres) / promo ponctuelle. Ne jamais présenter une promo comme
-  le "vrai" prix : ancrer sur le prix de rue stable.
+  le "vrai" prix : ancrer sur le prix constaté stable.
 - **Occasion / reconditionné = option de première classe**, pas un repli. La
   comparer frontalement au neuf (prix + garantie + état).
 

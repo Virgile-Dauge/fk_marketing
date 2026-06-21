@@ -2,10 +2,10 @@
 
 ## Trois niveaux de prix à distinguer
 1. **Prix officiel** constructeur — référence haute, sert d'ancre.
-2. **Prix de rue** stable actuel — comparateurs neutres.
+2. **Prix constaté** stable actuel — comparateurs neutres.
 3. **Promo ponctuelle** — ne jamais la présenter comme le vrai prix.
 
-## Comparateurs neutres (prix de rue neuf)
+## Comparateurs neutres (prix constaté neuf)
 - **idealo.fr**, **leDénicheur.fr** — historique de prix, plusieurs marchands.
 - Lire l'**historique** : un "-40 %" sur un prix gonflé la veille n'est pas une
   affaire. Se fier au plus bas **stable** des derniers mois.

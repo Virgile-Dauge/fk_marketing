@@ -16,6 +16,29 @@ produit**.
    → ne pas les mettre en colonne brute, les annoter.
 5. Proposer d'ajouter la grille obtenue à ce fichier.
 
+## Situer une feature pivot dans le marché (pénétration & premium)
+
+Quand on s'apprête à dire « tu n'as pas besoin de la feature X » (la feature
+**pivot** — celle qui gate la décision, pas chaque claim relativisé), la situer
+d'abord dans le marché. Deux mesures, recherche rapide :
+
+**Pénétration — standard ou différenciateur ?**
+- Regarder si les modèles d'**entrée de gamme** de la catégorie l'embarquent. Si
+  oui, la feature est *de base* : s'en passer est théorique ou impossible (ex.
+  « smart » sur les TV, écran tactile sur les smartphones). Le conseil « inutile »
+  ne tient plus — le dire et arrêter de la traiter comme un choix.
+- Si elle reste réservée au milieu/haut de gamme, c'est un vrai différenciateur :
+  le choix existe → passer au premium.
+
+**Premium — combien coûte la feature ?**
+- Trouver deux produits aussi proches que possible **différant surtout par cette
+  feature** (idéalement deux modèles d'une même gamme, « avec » vs « sans »), et
+  comparer leur prix constaté. L'écart ≈ le premium.
+- Le chiffre tranche : premium élevé → s'en passer économise réellement (argument
+  fort) ; premium ~nul → autant la prendre, même sans besoin marqué.
+- **Caveat** : souvent pas isolable proprement (features groupées par gamme).
+  Le dire et donner une fourchette plutôt qu'un faux chiffre précis.
+
 ## Casque / écouteurs ANC
 **Décisif (mesurable, différenciant) :**
 - ANC réel mesuré par des labos / tests indépendants (pas le % annoncé).
@@ -33,8 +56,8 @@ produit**.
 - Chiffres d'autonomie non comparables (volume, codec, conditions différents).
 - App "indispensable" souvent mobile-only (à noter si desktop/Linux).
 
-> Repère prix (juin 2026, à revérifier) : prix officiel ≠ prix de rue. Ex. Sony
-> XM6 449 € officiel vs ~300 € de rue ; ne pas confondre une promo ponctuelle
+> Repère prix (juin 2026, à revérifier) : prix officiel ≠ prix constaté. Ex. Sony
+> XM6 449 € officiel vs ~300 € constaté ; ne pas confondre une promo ponctuelle
 > avec le prix de référence.
 
 ## Aspirateur robot

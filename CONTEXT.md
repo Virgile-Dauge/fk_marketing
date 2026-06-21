@@ -73,17 +73,31 @@ _Avoid_: recyclage (le recyclage détruit la forme ; le réemploi la garde)
 Tarif constructeur de référence. Ancre haute, jamais le prix réel attendu.
 _Avoid_: prix conseillé, MSRP
 
-**Prix de rue**:
-Le prix bas stable actuel chez les marchands, lu sur un comparateur neutre
+**Prix constaté**:
+Le prix bas stable actuel chez les marchands, relevé sur un comparateur neutre
 (idealo, leDénicheur). Le prix de référence pour décider.
-_Avoid_: prix du marché
+_Avoid_: prix de rue (calque de « street price »), prix du marché
 
 **Promo**:
 Rabais ponctuel. Jamais présenté comme prix de référence ; toujours ancré sur le
-prix de rue stable.
+prix constaté stable.
 _Avoid_: bon plan (pour le prix lui-même), deal
 
 **Affiliation déguisée**:
 Page marchande (codes promo, liens d'achat, « meilleur de 2026 », « -40 % ») se
 faisant passer pour un test ou un comparatif. Jamais utilisée comme source.
 _Avoid_: comparatif, test, avis (quand c'en est)
+
+### Évaluer une feature
+
+**Pénétration marché**:
+À quel point une feature est répandue dans une catégorie : standard (présente
+partout, jusqu'en entrée de gamme) vs différenciateur (réservée à certains
+modèles). Une feature standard rend le conseil « tu n'en as pas besoin »
+théorique — tu l'auras de toute façon.
+_Avoid_: adoption, diffusion
+
+**Premium de feature**:
+Surcoût moyen entre deux produits équivalents à une feature près. Chiffre l'enjeu
+de la prendre ou non ; pas toujours isolable (features groupées par gamme).
+_Avoid_: surcoût (seul), prix de l'option

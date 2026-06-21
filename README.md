@@ -9,7 +9,7 @@ Skill d'achat sous contrainte de décroissance. Avant tout comparatif, il sépar
 la pulsion du vrai besoin, refuse la solution déjà projetée par le marketing,
 fait passer **ne rien faire / réparer / emprunter / occasion** avant le neuf,
 puis — seulement si l'achat neuf survit — compare sérieusement (specs vs
-marketing, prix officiel / rue / promo, coût réel € + empreinte) et conclut par
+marketing, prix officiel / constaté / promo, coût réel € + empreinte) et conclut par
 une reco par profil.
 
 - Format **Agent Skill** (`SKILL.md` + `references/`).
