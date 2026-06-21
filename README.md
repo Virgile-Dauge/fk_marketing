@@ -12,9 +12,10 @@ puis — seulement si l'achat neuf survit — compare sérieusement (specs vs
 marketing, prix officiel / rue / promo, coût réel € + empreinte) et conclut par
 une reco par profil.
 
-- Format **Agent Skill** (`SKILL.md` + `references/`), utilisable sur **claude.ai**.
-- Installation : déposer le dossier `achete-pas/` comme skill (upload claude.ai),
-  ou le copier dans `~/.claude/skills/achete-pas/` pour Claude Code.
+- Format **Agent Skill** (`SKILL.md` + `references/`).
+- **Déploiement : claude.ai uniquement** (pas Claude Code, pour ne pas polluer
+  l'env de dev) — procédure ci-dessous, rationale en
+  [`docs/adr/0003`](./docs/adr/0003-deploiement-claude-ai-uniquement.md).
 - **Locale : France** (assumé). Comparateurs et déclenchement en français par
   choix — meilleur triggering FR, sources FR. D'autres locales viendront.
 
@@ -26,6 +27,25 @@ achete-pas/
     ├── criteres-vs-marketing.md  # grille décisif/marketing par catégorie
     └── sources-prix-fr.md        # comparateurs neutres, occasion, anti-affiliation
 ```
+
+## Déploiement (claude.ai)
+
+Prérequis : un plan **Pro / Max / Team / Enterprise** avec **exécution de code**
+activée.
+
+1. Construire le zip depuis la racine du repo. Le dossier `achete-pas/` doit être
+   **à la racine du zip** (pas son contenu en vrac), et son nom doit matcher le
+   `name:` du frontmatter :
+   ```sh
+   zip -r achete-pas.zip achete-pas -x '**/.*'
+   ```
+2. Sur claude.ai : *Réglages > Fonctionnalités*, section Skills → **uploader**
+   `achete-pas.zip`.
+3. Au premier upload, vérifier que le champ frontmatter `license:` est accepté ;
+   sinon le déplacer sous `metadata:`.
+
+**Mettre à jour** : refaire l'étape 1 puis ré-uploader. Les surfaces ne se
+synchronisent pas (cf. ADR 0003) — c'est manuel à chaque fois.
 
 ## Licence
 
