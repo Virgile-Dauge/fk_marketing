@@ -6,3 +6,6 @@
 # Local-only config (review before committing; may contain machine-specific settings)
 .mcp.json
 .gitmodules
+
+# Build artifacts (skill zip pour upload claude.ai — voir README §Déploiement)
+*.zip
