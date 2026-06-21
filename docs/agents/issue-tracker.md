@@ -2,7 +2,7 @@
 
 Issues and PRDs for this repo live as GitHub issues. Use the `gh` CLI for all operations.
 
-> **Setup prerequisite:** this repo currently has no git remote. Before any `gh` command will work, run `git init`, create a GitHub repository, and connect it as the `origin` remote. `gh` infers the repo from that remote.
+> **Repo:** [`Virgile-Dauge/fk_marketing`](https://github.com/Virgile-Dauge/fk_marketing) is connected as the `origin` remote, so `gh` resolves it automatically when run in this clone.
 
 ## Conventions
 
